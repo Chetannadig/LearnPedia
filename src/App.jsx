@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import HeroSection from "./components/HeroSection.jsx";
+import HeroSection from "./Components/HeroSection.jsx";
 import ServiceCards from "./components/ServiceCards.jsx";
 import PricingTable from "./components/PricingTable.jsx";
 import ContactForm from "./components/ContactForm.jsx";
