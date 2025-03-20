@@ -9,7 +9,7 @@ const SearchBar = ({ onSearch }) => {
         <FaSearch className="search-icon" /> {/* Search icon inside the input */}
         <input
           type="text"
-          placeholder="Search placements"
+          placeholder="Search placements..."
           onChange={(e) => onSearch(e.target.value)} // Handle input change
           className="search-input"
         />

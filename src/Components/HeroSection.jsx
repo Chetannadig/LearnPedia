@@ -75,7 +75,7 @@ const HeroSection = () => {
                 }}
                 className="text-sm/6 font-semibold text-gray-900"
               >
-                Our Services
+                Services
               </a>
               <a
                 href="#plans"
