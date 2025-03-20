@@ -1,0 +1,94 @@
+/* Container for the contact form */
+.contact-form {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Keep the same background color */
+}
+
+/* Styling for the form heading */
+.contact-form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Styling for the form element */
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background: white; /* White background for the form */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Styling for each form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Styling for the form labels */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555; /* Dark gray for labels */
+}
+
+/* Styling for input and textarea elements */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus state for input and textarea elements */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+/* Additional styling for textarea element */
+.form-group textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 150px; /* Set a minimum height */
+}
+
+/* Container for the submit button */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center the button */
+  margin-top: 20px;
+}
+
+/* Styling for the submit button */
+.contact-form button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+/* Hover state for the submit button */
+.contact-form button:hover {
+  background: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Styling for the icon inside the submit button */
+.contact-form button .icon {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,56 @@
+h2{
+  font-weight: bolder;
+  font-size: 5vh;
+}
+.service-cards {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Wrap cards on smaller screens */
+}
+
+.service-title {
+  font-weight: bold;
+  margin-top: -10vh !important; /* Adjust title position */
+}
+
+.description {
+  margin-top: 5vh; /* Space above description */
+  color: #787b7e; /* Gray color for description text */
+}
+
+.card {
+  background: white; /* White background for cards */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 300px; /* Fixed width for cards */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.icon {
+  color: #007bff; /* Blue color for icons */
+  margin-bottom: 20px; /* Space below icons */
+}
+
+/* Horizontal Line */
+.service-cards::after {
+  content: "";
+  display: block;
+  width: 80%; /* Adjust width as needed */
+  height: 2px; /* Thickness of the line */
+  background: linear-gradient(to right, transparent, #007bff, transparent); /* Gradient effect */
+  margin: 20px auto 0; /* Center the line and add spacing */
+  border-radius: 2px; /* Slight rounding for a smooth look */
+}

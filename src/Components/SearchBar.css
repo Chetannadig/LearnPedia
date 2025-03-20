@@ -1,0 +1,51 @@
+.search-bar {
+  text-align: center;
+  background-color: #f8f9fa; /* Match website background */
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 400px; /* Limit width for better aesthetics */
+  margin: 0 auto; /* Center the search bar */
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px; /* Position icon inside the input */
+  color: #007bff; /* Blue color for icon */
+  font-size: 1.2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 12px 12px 40px; /* Add padding for icon */
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 1rem;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3); /* Glow effect on focus */
+}
+
+.search-input::placeholder {
+  color: #999; /* Light gray placeholder text */
+}
+
+/* Horizontal Line */
+.search-bar::after {
+  content: "";
+  display: block;
+  width: 80%; /* Adjust width as needed */
+  height: 2px; /* Thickness of the line */
+  background: linear-gradient(to right, transparent, #007bff, transparent); /* Gradient effect */
+  margin: 20px auto 0; /* Center the line and add spacing */
+  border-radius: 2px; /* Slight rounding for a smooth look */
+}

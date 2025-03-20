@@ -1,0 +1,14 @@
+/* Importing Tailwind CSS for utility classes */
+@import "tailwindcss";
+
+/* Styling for the hero section */
+.hero {
+    position: relative; /* Position relative for absolute positioning of child elements */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white; /* White text color */
+    text-align: center; /* Center text alignment */
+}
+

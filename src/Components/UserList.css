@@ -1,0 +1,81 @@
+.user-list-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f9fa; /* Match background with PricingTable */
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px; /* Bigger cards */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold; /* Bold for name */
+  color: #333; /* Dark gray for name */
+  margin-bottom: 10px;
+}
+
+.user-detail {
+  font-size: 0.8rem;
+  color: #555; /* Gray for details */
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-detail span {
+  font-weight: bold;
+}
+
+.show-more-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.show-more-button {
+  background: #007bff; /* Blue for button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.show-more-button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
