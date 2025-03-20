@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import HeroSection from "./Components/HeroSection.jsx";
-import ServiceCards from "./components/ServiceCards.jsx";
-import PricingTable from "./components/PricingTable.jsx";
-import ContactForm from "./components/ContactForm.jsx";
-import UserList from "./components/UserList.jsx";
-import SearchBar from "./components/SearchBar.jsx";
+import ServiceCards from "./Components/ServiceCards.jsx";
+import PricingTable from "./Components/PricingTable.jsx";
+import ContactForm from "./Components/ContactForm.jsx";
+import UserList from "./Components/UserList.jsx";
+import SearchBar from "./Components/SearchBar.jsx";
 import { debounce } from "lodash";
 import "./index.css";
 
